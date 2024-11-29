@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid ;
+    border-radius: 20px;
+    background: darkblue;
+    width: 250px;
+    height: 650px;
+}
+
+
+p::before {
+    
+    content: attr(type);
+    
+    display: block;
+    margin: 3px;
+    font-size: 17px;
+    color: #ffffff;
+        
+}
+
+.input{
+    width: 200px;
+    height: 300px;
+    margin: 8px;
+}
+
+.boton{
+    background: rgb(185, 167, 0);
+    color: black;
+    border-radius: 8px ;
+
+}
+
+#dato{
+    background: rgb(175, 175, 175);
+    border-radius: 8px;
+    width: 210px;
+}
+
+#label{
+    color : white;
+}
+
